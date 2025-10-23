@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  z-index: 3; /* above triangle overlay */
+position: relative;
+  color: white;
+}

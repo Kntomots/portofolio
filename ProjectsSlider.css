@@ -1,0 +1,59 @@
+.projects-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.projects-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-row {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem;
+  scrollbar-width: none; /* Firefox */
+}
+.projects-row::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+  z-index: 2;
+}
+.arrow:hover {
+  background: #555;
+}
+.arrow.left {
+  left: -50px;
+}
+.arrow.right {
+  right: -50px;
+}
+
+@media (max-width: 600px) {
+  .arrow.left {
+    left: -35px;
+  }
+  .arrow.right {
+    right: -35px;
+  }
+}

@@ -1,0 +1,50 @@
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.carousel {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+}
+.carousel::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+  z-index: 2;
+}
+.arrow:hover {
+  background: #555;
+}
+.arrow.left {
+  left: -50px;
+}
+.arrow.right {
+  right: -50px;
+}
+
+@media (max-width: 600px) {
+  .arrow.left {
+    left: -35px;
+  }
+  .arrow.right {
+    right: -35px;
+  }
+}

@@ -1,0 +1,114 @@
+.timeline {
+  padding: 4rem 2rem;
+}
+
+.timeline h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #3498db;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -2px;
+}
+
+.timeline-item {
+  padding: 1rem 2rem;
+  position: relative;
+  width: 50%;
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.6s ease-out;
+}
+
+.timeline-item.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+  transform: translateX(-50px);
+}
+
+.timeline-item.left.visible {
+  transform: translateX(0);
+}
+
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-item.right.visible {
+  transform: translateX(0);
+}
+
+.timeline-item .year {
+  font-weight: bold;
+  color: #3498db;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  border-radius: 50%;
+  top: 1rem;
+}
+
+.timeline-item.left::before {
+  right: -10px;
+}
+
+.timeline-item.right::before {
+  left: -10px;
+}
+
+/* --- MOBILE STYLES --- */
+@media screen and (max-width: 768px) {
+  .timeline-container::after {
+    left: 10px; /* move line to the left */
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 15px;
+    text-align: left;
+    transform: translateX(-50px);
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0;
+  }
+
+  .timeline-item.left.visible,
+  .timeline-item.right.visible {
+    transform: translateX(0);
+  }
+
+  .timeline-item::before {
+    left: 0;
+    top: 1rem;
+  }
+}
