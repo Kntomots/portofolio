@@ -34,9 +34,9 @@ function Contact() {
       <h2>Contact Me</h2>
       <p>Have a project in mind or want to say hello? Fill the form below!</p>
       <form onSubmit={handleSubmit} className="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message" rows="5" required></textarea>
         <button type="submit">Send Message</button>
       </form>
 

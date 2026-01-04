@@ -21,6 +21,7 @@ function Navbar() {
       <div className={`links ${isOpen ? "active" : ""}`}>
         <a href="#hero" onClick={(e) => scrollToSection(e, "hero")}>Home</a>
         <a href="#projects" onClick={(e) => scrollToSection(e, "projects")}>Projects</a>
+        <a href="#Timeline" onClick={(e) => scrollToSection(e, "timeline")}>Journey</a>
         <a href="#contact" onClick={(e) => scrollToSection(e, "contact")}>Contact</a>
       </div>
       <div className="hamburger" onClick={toggleMenu}>
