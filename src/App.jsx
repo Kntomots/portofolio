@@ -7,7 +7,7 @@ import Projects from "./Projects";
 import Technologies from "./Technologies";
 import Timeline from "./Timeline";
 import "./App.css";
-import triangleIcon from "./assets/react.svg";
+import bgImage from "./assets/kostas1.jpg";
 
 const TriangleBackground = () => {
   const triangles = Array.from({ length: 10 }); // adjust number
@@ -16,7 +16,7 @@ const TriangleBackground = () => {
      {triangles.map((_, i) => (
   <img
     key={`triangle-${i}`}   
-    src={triangleIcon}
+    src={bgImage}
     alt="triangle background"
   />
 ))}
