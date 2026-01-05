@@ -11,13 +11,17 @@ import "swiper/css/navigation";
 import Card from "./Card";
 import "./Projects.css";
 
+// Import project images
+import edocImage from "./assets/e-doc.png";
+import votesphereImage from "./assets/votesphere.png";
+
 const projects = [
   {
     id: 1,
     title: "E-doc",
     description:
       "The E-doc platform connects doctors and patients. Both can create accounts, log in, and access the platform with different permissions based on their roles.",
-    image: "../e-doc.png",
+    image: edocImage,
     githubUrl: "https://github.com/NickTsonis/e-doc",
   },
   {
@@ -25,21 +29,21 @@ const projects = [
     title: "Votesphere",
     description:
       "With Votespere, users can compare political parties' positions and examine electoral trends over time.",
-    image: "../votesphere.png",
+    image: votesphereImage,
     githubUrl: "https://github.com/Kntomots/europe-voteshere",
   },
   {
     id: 3,
     title: "Another Project",
     description: "A sample project to test responsive card layout.",
-    image: "../sample.png",
+    image: edocImage,
     githubUrl: "#",
   },
   {
     id: 4,
     title: "More Projects",
     description: "Another placeholder project.",
-    image: "../sample.png",
+    image: votesphereImage,
     githubUrl: "#",
   },
 ];
