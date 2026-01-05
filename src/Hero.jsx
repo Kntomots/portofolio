@@ -32,7 +32,7 @@ function Hero() {
           <a href="https://www.instagram.com/k.ntomotsidhs/" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
-          <a href="https://www.linkedin.com/in/kostas-ntomotsidis-a9abb5283/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/konstantinos-ntomotsidis-a9abb5283/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
           <a href="https://www.facebook.com/kostas.ntomotsidis" target="_blank" rel="noopener noreferrer">
