@@ -3,6 +3,7 @@ import "./Hero.css";
 import { FaInstagram, FaLinkedin, FaFacebook, FaDiscord } from "react-icons/fa";
 import { SiHackerrank } from "react-icons/si";
 import { FaArrowDown } from "react-icons/fa";
+import kostas from "./assets/kostas1.jpg";
 
 
 
@@ -17,7 +18,7 @@ function Hero() {
 
 
         <div className="hero-image">
-          <img src="./kostas.jpg" alt="my image" />
+          <img src={kostas} alt="my image" />
         </div>
 
         <div className="hero-text">
