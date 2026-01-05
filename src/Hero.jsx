@@ -3,7 +3,7 @@ import "./Hero.css";
 import { FaInstagram, FaLinkedin, FaFacebook, FaDiscord } from "react-icons/fa";
 import { SiHackerrank } from "react-icons/si";
 import { FaArrowDown } from "react-icons/fa";
-import kostas from "./assets/kostas1.jpg";
+import kostas from "./assets/kostas.jpg";
 
 
 

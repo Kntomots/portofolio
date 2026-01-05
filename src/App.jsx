@@ -7,7 +7,7 @@ import Projects from "./Projects";
 import Technologies from "./Technologies";
 import Timeline from "./Timeline";
 import "./App.css";
-import bgImage from "./assets/kostas1.jpg";
+import bgImage from "./assets/react.svg";
 
 const TriangleBackground = () => {
   const triangles = Array.from({ length: 10 }); // adjust number
