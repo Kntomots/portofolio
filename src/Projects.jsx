@@ -14,7 +14,7 @@ import "./Projects.css";
 // Import project images
 import edocImage from "./assets/e-doc.png";
 import votesphereImage from "./assets/votesphere.png";
-import ajgameImage from "./assets/ajgame.png";
+import ajgameImage from "./assets/AjGame.png";
 
 const projects = [
   {
