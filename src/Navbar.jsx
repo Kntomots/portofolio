@@ -6,6 +6,13 @@ function Navbar() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  const handleMenuKeyDown = (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      toggleMenu();
+    }
+  };
+
   const scrollToSection = (e, id) => {
     e.preventDefault();
     const section = document.getElementById(id);
@@ -28,7 +35,7 @@ function Navbar() {
         <a href="#Timeline" onClick={(e) => scrollToSection(e, "timeline")}>Journey</a>
         <a href="#contact" onClick={(e) => scrollToSection(e, "contact")}>Contact</a>
       </div>
-      <div className="hamburger" onClick={toggleMenu}>
+      <div className="hamburger" onClick={toggleMenu} onKeyDown={handleMenuKeyDown} role="button" tabIndex="0" aria-label="Toggle menu">
         <div></div>
         <div></div>
         <div></div>
