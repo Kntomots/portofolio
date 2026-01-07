@@ -14,6 +14,7 @@ import "./Projects.css";
 // Import project images
 import edocImage from "./assets/e-doc.png";
 import votesphereImage from "./assets/votesphere.png";
+import ajgameImage from "./assets/ajgame.png";
 
 const projects = [
   {
@@ -34,17 +35,17 @@ const projects = [
   },
   {
     id: 3,
-    title: "Another Project",
-    description: "A sample project to test responsive card layout.",
-    image: edocImage,
-    githubUrl: "#",
+    title: "Aj Game",
+    description: "A 2D game where the player controls a character to avoid obstacles and collect points.It is build with unity engine.",
+    image: ajgameImage,
+    githubUrl: "https://github.com/Kntomots/AjGame",
   },
   {
     id: 4,
-    title: "More Projects",
-    description: "Another placeholder project.",
-    image: votesphereImage,
-    githubUrl: "#",
+    title: "TCP/IP Messaging Application",
+    description: "Java networking application with multi-threaded server and Swing GUI client enabling real-time messaging between users. Demonstrates socket programming, concurrent thread management, and desktop UI design.",
+    image: "",
+    githubUrl: "https://github.com/Kntomots/Message-Application",
   },
 ];
 

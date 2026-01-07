@@ -17,7 +17,11 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h2 className="logo">Konstantinos Ntomotsidis</h2>
+      <div  className="logo">
+      <img src="public/logo.png" alt="logo" className="logo-image" />
+      <h2>Konstantinos Ntomotsidis</h2>
+      </div>
+      
       <div className={`links ${isOpen ? "active" : ""}`}>
         <a href="#hero" onClick={(e) => scrollToSection(e, "hero")}>Home</a>
         <a href="#projects" onClick={(e) => scrollToSection(e, "projects")}>Projects</a>

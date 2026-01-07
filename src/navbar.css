@@ -11,6 +11,20 @@
   z-index: 100;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+.logo-image {
+  height: 40px;
+}
+
 .links {
   display: flex;
   gap: 2rem;
