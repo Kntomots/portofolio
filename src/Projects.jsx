@@ -14,7 +14,6 @@ import "./Projects.css";
 // Import project images
 import edocImage from "./assets/e-doc.png";
 import votesphereImage from "./assets/votesphere.png";
-import ajgameImage from "./assets/ajgame.png";
 
 const projects = [
   {
@@ -37,7 +36,7 @@ const projects = [
     id: 3,
     title: "Aj Game",
     description: "A 2D game where the player controls a character to avoid obstacles and collect points.It is build with unity engine.",
-    image: ajgameImage,
+    image: "",
     githubUrl: "https://github.com/Kntomots/AjGame",
   },
   {
