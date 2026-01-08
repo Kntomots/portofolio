@@ -14,6 +14,7 @@ import "./Projects.css";
 // Import project images
 import edocImage from "./assets/e-doc.png";
 import votesphereImage from "./assets/votesphere.png";
+import AjGameImg from "./assets/AjGame.png"
 
 const projects = [
   {
@@ -22,7 +23,7 @@ const projects = [
     description:
       "The E-doc platform connects doctors and patients. Both can create accounts, log in, and access the platform with different permissions based on their roles.",
     image: edocImage,
-    githubUrl: "https://github.com/NickTsonis/e-doc",
+    githubUrl: "https://github.com/Kntomots/E-Doc",
   },
   {
     id: 2,
@@ -36,7 +37,7 @@ const projects = [
     id: 3,
     title: "Aj Game",
     description: "A 2D game where the player controls a character to avoid obstacles and collect points.It is build with unity engine.",
-    image: "",
+    image: AjGameImg,
     githubUrl: "https://github.com/Kntomots/AjGame",
   },
   {
