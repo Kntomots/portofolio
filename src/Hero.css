@@ -80,6 +80,9 @@
 
 /* Responsive */
 @media (max-width: 900px) {
+  .hero {
+    padding-top: 80px;
+  }
   .hero-content {
     flex-direction: column;
     text-align: center;
@@ -89,6 +92,7 @@
   }
   .hero-image img {
     width: 200px;
+    height: 200px;
   }
 }
 
