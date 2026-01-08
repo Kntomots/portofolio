@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
+import logo from "./assets/logo.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div  className="logo">
-      <img src="public/logo.png" alt="logo" className="logo-image" />
+      <img src={logo} alt="logo" className="logo-image" />
       <h2>Konstantinos Ntomotsidis</h2>
       </div>
       
