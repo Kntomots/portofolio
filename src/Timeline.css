@@ -91,10 +91,10 @@
 
   .timeline-item {
     width: 100%;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-right: 15px;
     text-align: left;
-    transform: translateX(-50px);
+    transform: translateX(0);
   }
 
   .timeline-item.left,
@@ -110,5 +110,10 @@
   .timeline-item::before {
     left: 0;
     top: 1rem;
+  }
+
+  .timeline-item.left::before,
+  .timeline-item.right::before {
+    left: 0;
   }
 }
